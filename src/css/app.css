@@ -1,0 +1,9 @@
+.header {
+  overflow: auto;
+  padding: 30px 20px;
+  border-bottom: 1px solid #1F3E77;
+}
+
+.header__logo {
+  max-width: 250px;
+}

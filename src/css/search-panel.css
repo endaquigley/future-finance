@@ -1,0 +1,33 @@
+.search-panel {
+  padding: 20px;
+  background: #FFEB00;
+  border-bottom: 1px solid #1F3E77;
+}
+
+.search-panel__field,
+.search-panel__button {
+  height: 45px;
+  outline: none;
+  line-height: 1;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.search-panel__field {
+  padding: 0 10px;
+  border: 1px solid #1F3E77;
+  width: calc(100% - 80px);
+}
+
+.search-panel__button {
+  width: 80px;
+  color: white;
+  cursor: pointer;
+  background: #1F3E77;
+  border: 1px solid #1F3E77;
+  border-left: none;
+}
+
+.search-panel__sort {
+  margin-top: 15px;
+}

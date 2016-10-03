@@ -1,0 +1,12 @@
+.search {
+
+}
+
+.search__results {
+  margin: 20px;
+}
+
+.search__pagination {
+  margin: 20px 0;
+  text-align: center;
+}
