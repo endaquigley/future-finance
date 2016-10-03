@@ -1,6 +1,6 @@
 # Future Finance
 
-> Future Finance frontend test (React / Redux search page)
+> Future Finance frontend test (search page)
 
 https://www.endaquigley.com/sandbox/future-finance
 
