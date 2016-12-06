@@ -32,7 +32,7 @@ export const fetchSearchResults = (query = '') => {
 
     dispatch(fetchSearchResultsPending());
 
-    axios.get('/sandbox/future-finance/content.json').then(({ data }) => {
+    axios.get('content.json').then(({ data }) => {
 
       const results = data.response.results.result;
 

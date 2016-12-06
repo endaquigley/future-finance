@@ -16,16 +16,14 @@ const search = (state = initalState, action) => {
 
     case 'SORT_SEARCH_RESULTS':
 
-      state = {
+      return {
         ...state,
         sorting: action.payload
       };
 
-      return state;
-
     case 'CHANGE_SEARCH_RESULTS_PAGE':
 
-      state = {
+      return {
         ...state,
         pagination: {
           ...state.pagination,
@@ -33,22 +31,18 @@ const search = (state = initalState, action) => {
         }
       };
 
-      return state;
-
     case 'FETCH_SEARCH_RESULTS_PENDING':
 
-      state = {
+      return {
         ...state,
         results: [],
         fetched: false,
         fetching: true
       };
 
-      return state;
-
     case 'FETCH_SEARCH_RESULTS_FULFILLED':
 
-      state = {
+      return {
         ...state,
         fetched: true,
         fetching: false,
@@ -59,8 +53,6 @@ const search = (state = initalState, action) => {
           activePage: 1
         }
       };
-
-      return state;
 
     default: return state;
 
